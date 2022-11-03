@@ -32,13 +32,15 @@ p {
     color: #eaeaea;
     text-decoration: none;
     padding: 1em 2em;
-    border: 1px solid #666;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
     margin: 0.5em 0;
+    opacity: 70%;
 }
 
 .btn:hover {
-    background-color: wheat;
-    color: #333;
+    background-color: black;
+    color: white;
 }
 
 #showcase {
