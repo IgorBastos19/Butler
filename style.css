@@ -1,0 +1,97 @@
+/* tabela de preço */
+
+.preco-table {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: min(1600px, 100%);
+}
+
+.preco-cartao {
+    flex: 1;
+    max-width: 360px;
+    background-color: white;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color: #2d2d2d;
+    transition: .3s linear;
+}
+
+.preco-cartao-header {
+    background-color: rgb(229, 28, 36);
+    display: inline-block;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 0 0 20px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .4s linear;
+}
+
+.preco-cartao:hover .preco-cartao-header {
+    box-shadow: 0 0 0 26em rgb(229, 28, 36);
+}
+
+.preco {
+    font-size: 70px;
+    color: rgb(229, 28, 36);
+    margin: 40px 0;
+    transition: .2 linear;
+}
+
+.preco sup,
+.preco span {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.preco-cartao:hover,
+.preco-cartao:hover .preco {
+    color: white;
+}
+
+.preco-cartao li {
+    font-size: 16px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.order-btn {
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    border: 2px solid rgb(229, 28, 36);
+    color: rgb(229, 28, 36);
+    padding: 18px 40px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: 0.3s linear;
+}
+
+.order-btn:hover {
+    background-color: rgb(229, 28, 36);
+    color: white;
+}
+
+/* final tabela de preço */
+
+hr {
+    height: 8px;
+    background-image: linear-gradient(90deg, transparent, red, transparent);
+
+    border: 0;
+    height: 1px;
+}
+
+.hr1 {
+    height: 8px;
+    background-image: linear-gradient(90deg, transparent, red, transparent);
+
+    border: 0;
+    height: 5px;
+}
